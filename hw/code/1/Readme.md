@@ -1,1 +1,1 @@
-![root directory] (../images/tree_structure.png)
+![root directory] (./images/tree_structure.png)
