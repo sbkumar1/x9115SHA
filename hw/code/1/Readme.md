@@ -1,1 +1,1 @@
-![root directory] [x9115SHA/hw/code/1/images/tree_structure.JPG]
+![root directory] [../images/tree_structure.JPG]
