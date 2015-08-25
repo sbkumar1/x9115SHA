@@ -1,1 +1,5 @@
 ![root directory] (./images/tree_structure.png)
+![root directory] (./images/python_pip_Screenshot.png)
+![root directory] (./images/easy_install_screenshot.png)
+![root directory] (./images/editor_Screenshot.png)
+![root directory] (./images/okok_screenshot.png)
