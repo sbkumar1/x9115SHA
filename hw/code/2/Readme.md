@@ -1,0 +1,6 @@
+![root directory] (./images/exercise4.2.1.png)
+![root directory] (./images/exercise4.2.2.png)
+![root directory] (./images/exercise4.2.3.png)
+![root directory] (./images/exercise4.3.1.png)
+![root directory] (./images/exercise4.3.2.png)
+![root directory] (./images/exercise4.3.3.png)
