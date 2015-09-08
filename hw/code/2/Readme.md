@@ -1,3 +1,4 @@
+Exercise 3.1
 ![root directory] (./Images/exercise3.1.png)
 ![root directory] (./Images/exercise3.2.png)
 ![root directory] (./Images/exercise3.3.png)
