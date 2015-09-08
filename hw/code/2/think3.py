@@ -79,6 +79,20 @@ OUTPUT:
 root@ubuntu:~/CSC791/Code2# python  exercise3.3.py 
                                                                   allen
 """
+################################################################
+###Author:- Shashank Bipin Kumar(sbkumar@ncsu.edu)##############
+###HW 2 - Exercise 3.4.1##########################################
+################################################################
+
+#!/usr/bin/python -b
+
+def do_twice(f):
+        f()
+        f()
+
+def print_spam():
+        print "Spam"
+do_twice(print_spam)
 
 ##########################################################################
 
@@ -90,29 +104,38 @@ root@ubuntu:~/CSC791/Code2# python  exercise3.3.py
 #!/usr/bin/python -b
 
 def do_twice(f,v):
-	f(v)
-	f(v)
+        f(v)
+        f(v)
 
 def print_spam(num):
-	print "Hello"*num
+        print "Spam"
 
-print "Calling modified do twice in step 2 of exercise 3.4"
+print "***********EXERCISE  3.4 STEP 2"
 do_twice(print_spam,2)
 
 def print_twice(string_twice):
-	print string_twice*2
+        print string_twice
+        print string_twice
 
 def modified_do_twice(f,v):
-	f(v)
-	f(v)
-print "Calling modified do_twice in step 4 of exercise 3.4"
-modified_do_twice(print_twice,'spam')
+        f(v)
+        f(v)
+print "************* EXERCISE 3.4 STEP 3******************"
+print_twice("printing twice")
+print
+print
 
-print "Calling do_four as asked in step 5 of exercise 3.5"
+print "EXERCISE 3.4 STEP 4"
+modified_do_twice(print_twice,'spam')
+print
+print
+
+print "EXERCISE 3.4 STEP 5"
 def do_four(f,v):
-	for i in range(4):
-		f(v)
-do_four(print_twice,'do_twice')
+        for i in range(4):
+                f(v)
+do_four(print_twice,'spam')
+
 
 """
 OUTPUT:-
