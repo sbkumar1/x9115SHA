@@ -14,6 +14,8 @@ Exercise 3.4.4
 ![root directory] (./Images/exercise3.4.4.png)
 Exercise 3.4.5
 ![root directory] (./Images/exercise3.4.5.png)
+Exercise 3.5
+![root directory] (./Images/exercise3.5.png)
 Exercise 4.2 Figure 1
 ![root directory] (./Images/exercise4.2.1.png)
 Exercise 4.2 Figure 2
