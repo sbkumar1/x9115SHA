@@ -1,2 +1,2 @@
 MaxWalkSat
-![root directory] (./Images/1.png)
+![root directory] (./Images/1.PNG)
