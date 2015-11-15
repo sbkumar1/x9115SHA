@@ -2,8 +2,11 @@
 from __future__ import division
 import math
 import random
+import time
+import timeit
+random.seed(100)
 #from __future__ import division
-print "Simulted Annealing"
+#print "Simulted Annealing"
 SIM_MAX=10**5
 SIM_MIN=-(10**5)
 MINIMUM=0
@@ -64,12 +67,22 @@ def sim_annealer():
 		#print formatList
 		k=k+1
 		if (k%25==0):
-			print k,"    ",	
+			print k,"    ",time.strftime('%l:%M%p %Z on %b %d, %Y'),"     ",
 			print "".join(formatList)
 			formatList=[]
-	string1="Solution for Simulated Annnealing is "+str(sBest)+" with energy "+str(sEnergy) 	
+	string1="\t Solution Found "+str(sBest)
+	string2="\t Best Energy "+str(math.fabs(eBest))
 	print string1
+	print string2
+print "#################################Simulated annealer started#################################################################"
+start=timeit.default_timer()
+print "Start Time->",time.strftime('%l:%M%p %Z on %b %d, %Y')
 sim_annealer()
+end=timeit.default_timer()
+print "\t Algorithm Runtime",end-start
+print "\t End Time->",time.strftime('%l:%M%p %Z on %b %d, %Y')
+print "###################################Simulated Anneling ends#################################################################"
+
 
 
 
