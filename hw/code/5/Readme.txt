@@ -1,2 +1,1 @@
-Max Walk Sat
-![root directory] (./images/maxwalksat.png)
+![root directory] (./images/1.png)
