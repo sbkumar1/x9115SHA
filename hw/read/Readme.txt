@@ -1,4 +1,4 @@
-MASE - LIST OF PAPERS FOR READING ASSIGNMENTS 
+#MASE - LIST OF PAPERS FOR READING ASSIGNMENTS 
 
 1. A Topic-Based Approach for Narrowing the Search Space of Buggy Files from a Bug Report - Anh Tuan Nguyen, Tung Thanh Nyugen, Jafar Al-Kofani, Hung Viet Nyugen, Tien N. Nyugen, 2011.
 2. Bug localization using latent Dirichlet allocation - Stacy K. Lukins, Nicholas A. Kraft, Letha H. Etzkorn, 2010.
