@@ -1,4 +1,2 @@
-#79115SHA
+#79115SHA - Shashank Bipin Kumar(sbkumar)
 ##CSC791 -  Model Based Automated Software Engineering
-
-###Shashank Bipin Kumar - sbkumar
