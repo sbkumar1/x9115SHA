@@ -36,9 +36,9 @@ The project is implemented in the below steps :-
 
 ##V. Results
 The results from 7th and 20th iteration is pasted below. The results from all the iterations can be seen in results.txt present in this folder.  
-Iteration 7  
+###Iteration 7  
 ![root directory] (./images/iteration7.png)
-Iteration 20  
+###Iteration 20  
 ![root directory] (./images/iteration20.png)
 
 The results by ranking the three algorithm is displayed below.  
