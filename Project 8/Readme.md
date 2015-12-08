@@ -38,11 +38,17 @@ The project is implemented in the below steps :-
 The results from 7th and 20th iteration is pasted below. The results from all the iterations can be seen in results.txt present in this folder.  
 ###Iteration 7  
 ![root directory] (./images/iteration7.png)
+###Iteration 10  
+![root directory] (./images/iteration10.png)
+###Iteration 15    
+![root directory] (./images/iteration15.png)
 ###Iteration 20  
 ![root directory] (./images/iteration20.png)
 
 The results by ranking the three algorithm is displayed below.  
 ![root directory] (./images/Rdiv.png)
+
+For Results from all the iterations please check Results.txt.
 
 ## Threats to Validity
 #####1. The algorithms have been tested on only one DTLZ7 model. To conclude one algorithm is better than other based on results from one model would be incorrect. We can try to run algorithm on multiple models and search spaces.
@@ -51,12 +57,16 @@ The results by ranking the three algorithm is displayed below.
 #####4. The choice of algorithm often results on the models. So, the results concluded would always be with respect to the model used. This cannot be used to predict performance of an algorithm on any other non-similar model.
 
 ##Future Work
-#####1. The experiment was run on only one model, running the experiment on multiple models would help us achieve better conclusive results.
-#####2. Comparison techniques other than binary domination can be used compare between models.
-#####3. Different values of mutation and crossover can be tried
+#####1. The experiment was run on only one model, running the experiment on multiple models would help us achieve better conclusive results in terms of ranking the models.
+#####2. Better comparison techniques than binary domination can be used compare between models.
+#####3. Different values of mutation and crossover can be tried to see if the result of an algorithm improves.
 #####4. Experiment can be run for more number of iterations.
-#####5. We can try to find the runtime of each of this algorithm when the candidate set is much higher value than one now. 
+#####5. Runtime and Optimality are two important criterion when selecting an algorithm in real world for a particular model. We can try to find out runtime  for each of these algorithms.
 
+## Runnning Instructions
+######1. On a ubuntu 14.04 machine please copy all the code in home directory.
+######2. Please give executable permission to "run.py".
+######3. Run the file using command "python run.py". 
 
 
 
