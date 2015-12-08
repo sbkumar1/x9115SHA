@@ -36,7 +36,11 @@ The project is implemented in the below steps :-
 
 ##V. Results
 The results from 7th and 20th iteration is pasted below. The results from all the iterations can be seen in results.txt present in this folder.
-The results by ranking the three algorithm is displayed below.
+![root directory] (./images/iteration7.png)
+![root directory] (./images/iteration20.png)
+
+The results by ranking the three algorithm is displayed below.  
+![root directory] (./images/Rdiv.png)
 
 ## Threats to Validity
 #####1. The algorithms have been tested on only one DTLZ7 model. To conclude one algorithm is better than other based on results from one model would be incorrect. We can try to run algorithm on multiple models and search spaces.
