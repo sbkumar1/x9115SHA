@@ -7,7 +7,7 @@ This project would be about evaluating models DTLZ1,DTLZ3,DTLZ5 and DTLZ7 using 
 
 ##II. Background
 ####Genetic Algorithm
-Genetic Algorithms(GA) are adaptive heuristic search algorithms based on the evolutionary ideas of natural selection and genetics. GA works better than other AI techniques like linear programming, dfs, etc even in presence of reasonable noise. The major steps of GA are :-
+Genetic Algorithms(GA) are adaptive heuristic search algorithms based on the evolutionary ideas of natural selection and genetics. GA works better than other AI techniques like linear programming, dfs, etc even in presence of reasonable noise. The major steps of GA are :-  
 1. Initially a random population is selected.  
 2. Good individuals are selected based on a fitness function.  
 3. Genes from the good individuals propagate throughout the population so that two good parents produce better offspring.  
@@ -45,11 +45,10 @@ Genetic Algorithm(GA) is used for solving optimization problems. This project st
 2. Please give executable permission to "run.py".
 3. Run the file using command "python run.py". 
 
-## References.
+## IX References.
 1. http://e-collection.library.ethz.ch/eserv/eth:24696/eth-24696-01.pdf
 2. https://en.wikipedia.org/wiki/Genetic_algorithm
 3. http://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol1/hmw/article1.html
-4. 
 
 
 
