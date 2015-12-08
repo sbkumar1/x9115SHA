@@ -45,7 +45,7 @@ Genetic Algorithm(GA) is used for solving optimization problems. This project st
 2. Please give executable permission to "run.py".
 3. Run the file using command "python run.py". 
 
-## IX References.
+## IX References
 1. http://e-collection.library.ethz.ch/eserv/eth:24696/eth-24696-01.pdf
 2. https://en.wikipedia.org/wiki/Genetic_algorithm
 3. http://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol1/hmw/article1.html
