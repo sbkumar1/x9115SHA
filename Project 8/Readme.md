@@ -41,7 +41,7 @@ The results from 7th and 20th iteration is pasted below. The results from all th
 ###Iteration 10  
 ![root directory] (./images/iteration10.png)
 ###Iteration 15    
-![root directory] (./images/iteration15.png)
+![root directory] (./images/iteration50.png)
 ###Iteration 20  
 ![root directory] (./images/iteration20.png)
 
