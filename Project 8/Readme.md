@@ -1,4 +1,4 @@
-#Code 8 - Comparison of Simulated Annealing, MaxWalkSat and Differential Evolution for DTLZ7 Using Less Than Operators
+#Comparison of Simulated Annealing, MaxWalkSat and Differential Evolution for DTLZ7 Using Less Than Operators
 
 ###Submitted By - Shashank Bipin Kumar (sbkumar) for ASE Fall 2015 Code 8  
 
