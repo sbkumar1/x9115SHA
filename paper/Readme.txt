@@ -1,0 +1,1 @@
+Comparison - Simulated Annealing, MaxWalkSat and Differential Evolution Using Type1,Type2, Type3 comparison operators
