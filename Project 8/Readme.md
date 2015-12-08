@@ -45,10 +45,10 @@ The results from 7th and 20th iteration is pasted below. The results from all th
 ###Iteration 20  
 ![root directory] (./images/iteration20.png)
 
-The results by ranking the three algorithm is displayed below.  
+###The results by ranking the three algorithm is displayed below.  
 ![root directory] (./images/Rdiv.png)
 
-For Results from all the iterations please check Results.txt.
+###For results from all the iterations please check Results.txt.
 
 ## Threats to Validity
 #####1. The algorithms have been tested on only one DTLZ7 model. To conclude one algorithm is better than other based on results from one model would be incorrect. We can try to run algorithm on multiple models and search spaces.
@@ -63,10 +63,10 @@ For Results from all the iterations please check Results.txt.
 #####4. Experiment can be run for more number of iterations.
 #####5. Runtime and Optimality are two important criterion when selecting an algorithm in real world for a particular model. We can try to find out runtime  for each of these algorithms.
 
-## Runnning Instructions
-######1. On a ubuntu 14.04 machine please copy all the code in home directory.
-######2. Please give executable permission to "run.py".
-######3. Run the file using command "python run.py". 
+## Running Instructions
+#####1. On a ubuntu 14.04 machine please copy all the code in home directory.
+#####2. Please give executable permission to "run.py".
+#####3. Run the file using command "python run.py". 
 
 
 
