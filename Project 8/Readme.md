@@ -35,8 +35,10 @@ The project is implemented in the below steps :-
 4. When the final frontier of all the three optimizers are obtained,  root mean square distance of the each candidate found from its nearest neighbour in baseline population. The rdivDemo function uses this value to rank the optimizers.
 
 ##V. Results
-The results from 7th and 20th iteration is pasted below. The results from all the iterations can be seen in results.txt present in this folder.
+The results from 7th and 20th iteration is pasted below. The results from all the iterations can be seen in results.txt present in this folder.  
+Iteration 7  
 ![root directory] (./images/iteration7.png)
+Iteration 20  
 ![root directory] (./images/iteration20.png)
 
 The results by ranking the three algorithm is displayed below.  
