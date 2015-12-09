@@ -33,7 +33,7 @@ Below are the steps for implementation:-
 The running time of the algorithm was extremely slow. I have used a technique where I have generated the population in steps of 10 and then finally reached the total population count. This helped me reduce the time of running the algorithm.
 
 ##V. Results
-###For DTLZ1
+###The Results have been shown below. It is found that tuning the GA parameters using DE does improve the outcome of both DTLZ5 and DTLZ7 with less number of candidates, however as the number of candidates begin to increase, the improvement is not significant.
 ![root directory] (./images/Results.PNG)
 ###For DTLZ5 50 candidates 0.8 crossover 0.2 mutation  
 ![root directory] (./images/DTLZ5_50_0.2_0.8.PNG)
@@ -46,7 +46,7 @@ The running time of the algorithm was extremely slow. I have used a technique wh
 ###For DTLZ5 and DTLZ7 50 candidates 0.8 crossover 0.2 mutation
 ![root directory] (./images/dtlz5_7_10_2_tuned_50_2.PNG)
 ###For DTLZ5 500 candidates 0.8 crossover 0.2 mutation
-![root directory] (./images/dtlz7_10_2_tuned_500)
+![root directory] (./images/dtlz7_10_2_tuned_500.PNG)
 
 ##VI. Threats to Validity
 1. The tuned algorithm has been run on DTLZ5 and DTLZ7 with only 10 decisions and 2 objectives. It remains to be seen how the algorithm behaves with DTLZ1 and DTLZ3 models and with higher number of decisions.  
