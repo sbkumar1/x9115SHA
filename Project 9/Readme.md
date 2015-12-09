@@ -53,7 +53,7 @@ For DTLZ1, the genetic algorithm does not good results. The Results are for 100 
 2. Different values of mutation and crossover can be tried to see if the result of an algorithm improves.  
 3. The initial population can be tuned using another algorithm like Differential Evolution.  
 4. Runtime and Optimality are two important criterion when selecting an algorithm in real world for a particular model. We can try to find out runtime  for each of these algorithms.  
-5. Try these models on different algorithms and validate performance of Genetic Algorithm.
+5. Try these models on other algorithms and compare performance of Genetic Algorithm.
 
 ##VIII. Running Instructions
 1. On a ubuntu 14.04 machine please copy all the code in home directory.
