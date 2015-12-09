@@ -39,12 +39,24 @@ The running time of the algorithm was extremely slow. I have used a technique wh
 2. To make the algorithm run faster, I have used energy as a tuning parameter in DE, I would have to see how does the algorithm behaves with binary domination.  
 3. Hypervolume is not a very credible parameter in multi-objective functions. I might need to look at other parameters like co-variance etc.  
 
-##VI. Future Work
+##VII. Future Work
 1. The run time of the algorithm is really slow, Future work would include using better techniques to improve the runtime.  
 2. Using DE, the number of candidates generated is very slow after 10 or so candidates, so I have used technique to generate population in step. I would need to see if this effects results.  
 3. The work would be much more credible if I have results for all the models used in code 9.
 4. I would like to check if any other algorithm can tune GA better than GE.
 5. I would like to check if using continuous dominance will help the runtime.
+
+##VIII. Running Instructions
+On a ubuntu 14.04 machine please copy all the code in home directory.  
+Please give executable permission to "run.py".  
+Run the file using command "python run.py".  
+
+##IX References
+1. https://www.easycalculation.com/statistics/inter-quartile-range.php  
+2. http://e-collection.library.ethz.ch/eserv/eth:24696/eth-24696-01.pdf  
+3. https://www.onepetro.org/conference-paper/SPE-64765-MS  
+4. https://www.researchgate.net/post/How_to_tune_parameters_for_genetic_algorithm_approach_for_a_problem  
+
 
 
 
