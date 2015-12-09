@@ -25,6 +25,9 @@ Genetic Algorithm(GA) is used for solving optimization problems. This project st
 4. At end of each iteration, the new population is compared with the old one using the type 2 comparator. If there is no improvement in five successive iteration, then the algorithm is terminated early.  
 
 ##V. Results
+The average run time of all the models was found to be around 20 iterations.  
+Hypervolume was chosen as a parameter, there was instances where the hypervolume_runner.py did result in hypervolume greater than 1, those parameters were normalized.  
+All the Pareto Frontiers geenarted during test are stored in folder Pareto Frontier.  
 ###For DTLZ1
 ![root directory] (./images/Result1.PNG)
 ###For DTLZ3  
