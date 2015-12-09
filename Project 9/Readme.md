@@ -25,6 +25,14 @@ Genetic Algorithm(GA) is used for solving optimization problems. This project st
 4. At end of each iteration, the new population is compared with the old one using the type 2 comparator. If there is no improvement in five successive iteration, then the algorithm is terminated early.  
 
 ##V. Results
+###For DTLZ1
+![root directory] (./images/Result_1.png)
+###For DTLZ3  
+![root directory] (./images/Result_2.png)
+###For DTLZ5
+![root directory] (./images/Result_3.png)
+###For DTLZ7
+![root directory] (./images/Result_4.png)
 
 
 ##VI. Threats to Validity
