@@ -33,7 +33,7 @@ Below are the steps for implementation:-
 The running time of the algorithm was extremely slow. I have used a technique where I have generated the population in steps of 10 and then finally reached the total population count. This helped me reduce the time of running the algorithm.
 
 ##V. Results
-###The Results have been shown below. It is found that tuning the GA parameters using DE does improve the outcome of both DTLZ5 and DTLZ7 with less number of candidates, however as the number of candidates begin to increase, the improvement is not significant.
+The Results have been shown below. It is found that tuning the GA parameters using DE does improve the outcome of both DTLZ5 and DTLZ7 with less number of candidates, however as the number of candidates begin to increase, the improvement is not significant.
 ![root directory] (./images/Results.PNG)
 ###For DTLZ5 50 candidates 0.8 crossover 0.2 mutation  
 ![root directory] (./images/DTLZ5_50_0.2_0.8.PNG)
