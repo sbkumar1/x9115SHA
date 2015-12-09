@@ -52,25 +52,27 @@ The results from 7th, 10th, 15th and 20th iteration are pasted below. The result
 
 ###For results from all the iterations please check Results.txt.
 
-## Threats to Validity
+##VI. Threats to Validity
 1. The algorithms have been tested on only one DTLZ7 model. To conclude one algorithm is better than other based on results from one model would be incorrect. We can try to run algorithm on multiple models and search spaces.  
 2. We have used root mean square of euclidean distance of candidates from nearest neighbour to calculate the ranking of the optimizer. This would be a problem for multi-objective models like DTLZ7 where both the functions move in different directions.  
 3. The results have been seen only for twenty iterations. We can increase the size of population and iterations to get better conclusive results.  
 4. The choice of algorithm often results on the models. So, the results concluded would always be with respect to the model used. This cannot be used to predict performance of an algorithm on any other non-similar model.  
 
-##Future Work
+##VII. Future Work
 1. The experiment was run on only one model, running the experiment on multiple models would help us achieve better conclusive results in terms of ranking the models.  
 2. Better comparison techniques than binary domination can be used compare between models.  
 3. Different values of mutation and crossover can be tried to see if the result of an algorithm improves.  
 4. Experiment can be run for more number of iterations.  
 5. Runtime and Optimality are two important criterion when selecting an algorithm in real world for a particular model. We can try to find out runtime  for each of these algorithms.  
 
-## Running Instructions
+##VIII. Running Instructions
 1. On a ubuntu 14.04 machine please copy all the code in home directory.
 2. Please give executable permission to "run.py".
 3. Run the file using command "python run.py". 
 
-
+##IX. References
+1. https://github.com/txt/mase/blob/master/lessthan.md  
+2. http://menzies.us/pdf/13ibea.pdf  
 
 
 
