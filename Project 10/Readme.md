@@ -41,8 +41,12 @@ The running time of the algorithm was extremely slow. I have used a technique wh
 ![root directory] (./images/DTLZ5_50_0.3_0.1.PNG)
 ###For DTLZ7 50 candidates 0.3 crossover 0.1 mutation
 ![root directory] (./images/DTLZ7_50_0.3_0.1.PNG)
-###For DTLZ7 50 candidates 0.8 crossover 0.2 mutation
-![root directory] (./images/DTLZ7_500_0.8_0.2)
+###For DTLZ7 500 candidates 0.8 crossover 0.2 mutation
+![root directory] (./images/DTLZ7_500_0.8_0.2.PNG)
+###For DTLZ5 and DTLZ7 50 candidates 0.8 crossover 0.2 mutation
+![root directory] (./images/dtlz5_7_10_2_tuned_50_2.PNG)
+###For DTLZ5 500 candidates 0.8 crossover 0.2 mutation
+![root directory] (./images/dtlz7_10_2_tuned_500)
 
 ##VI. Threats to Validity
 1. The tuned algorithm has been run on DTLZ5 and DTLZ7 with only 10 decisions and 2 objectives. It remains to be seen how the algorithm behaves with DTLZ1 and DTLZ3 models and with higher number of decisions.  
