@@ -26,13 +26,13 @@ Genetic Algorithm(GA) is used for solving optimization problems. This project st
 
 ##V. Results
 ###For DTLZ1
-![root directory] (./images/Result_1.png)
+![root directory] (./images/Result1.png)
 ###For DTLZ3  
-![root directory] (./images/Result_2.png)
+![root directory] (./images/Result2.png)
 ###For DTLZ5
-![root directory] (./images/Result_3.png)
+![root directory] (./images/Result3.png)
 ###For DTLZ7
-![root directory] (./images/Result_4.png)
+![root directory] (./images/Result4.png)
 
 
 ##VI. Threats to Validity
