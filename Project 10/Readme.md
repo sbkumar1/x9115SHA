@@ -48,17 +48,21 @@ The Results have been shown below. It is found that tuning the GA parameters usi
 ###For DTLZ5 500 candidates 0.8 crossover 0.2 mutation
 ![root directory] (./images/dtlz7_10_2_tuned_500.png)
 
+The number of iterations for a solution reduces for DE tuned GA, however, the time needed for each iteration increases.
+
 ##VI. Threats to Validity
 1. The tuned algorithm has been run on DTLZ5 and DTLZ7 with only 10 decisions and 2 objectives. It remains to be seen how the algorithm behaves with DTLZ1 and DTLZ3 models and with higher number of decisions.  
-2. To make the algorithm run faster, I have used energy as a tuning parameter in DE, I would have to see how does the algorithm behaves with binary domination.  
-3. Hypervolume is not a very credible parameter in multi-objective functions. I might need to look at other parameters like co-variance etc.  
+2. To make the algorithm run faster, I have used energy as a tuning parameter in DE, I would have to see how does the algorithm behaves with binary or continuous domination.  
+3. Hypervolume is not a very credible parameter in multi-objective functions. I might need to look at other parameters like co-variance etc.
+4. The program has not been tested on large number of candidates.
+  
 
 ##VII. Future Work
 1. The run time of the algorithm is really slow, Future work would include using better techniques to improve the runtime.  
 2. Using DE, the number of candidates generated is very slow after 10 or so candidates, so I have used technique to generate population in step. I would need to see if this effects results.  
-3. The work would be much more credible if I have results for all the models used in code 9.
-4. I would like to check if any other algorithm can tune GA better than GE.
-5. I would like to check if using continuous dominance will help the runtime.
+3. The work would be much more credible if I have results for all the models and combinations used in code 9. This would be a future work.
+4. I would like to check if any other algorithm can tune GA better than DE.
+5. I would like to check if using continuous dominance will help reduce the runtime.
 
 ##VIII. Running Instructions
 On a ubuntu 14.04 machine please copy all the code in home directory.  
