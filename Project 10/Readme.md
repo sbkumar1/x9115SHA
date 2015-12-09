@@ -33,6 +33,16 @@ Below are the steps for implementation:-
 The running time of the algorithm was extremely slow. I have used a technique where I have generated the population in steps of 10 and then finally reached the total population count. This helped me reduce the time of running the algorithm.
 
 ##V. Results
+###For DTLZ1
+![root directory] (./images/Results.PNG)
+###For DTLZ5 50 candidates 0.8 crossover 0.2 mutation  
+![root directory] (./images/DTLZ5_50_0.2_0.8.PNG)
+###For DTLZ5 50 candidates 0.3 crossover 0.1 mutation
+![root directory] (./images/DTLZ5_50_0.3_0.1.PNG)
+###For DTLZ7 50 candidates 0.3 crossover 0.1 mutation
+![root directory] (./images/DTLZ7_50_0.3_0.1.PNG)
+###For DTLZ7 50 candidates 0.8 crossover 0.2 mutation
+![root directory] (./images/DTLZ7_500_0.8_0.2)
 
 ##VI. Threats to Validity
 1. The tuned algorithm has been run on DTLZ5 and DTLZ7 with only 10 decisions and 2 objectives. It remains to be seen how the algorithm behaves with DTLZ1 and DTLZ3 models and with higher number of decisions.  
