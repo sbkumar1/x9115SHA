@@ -17,11 +17,35 @@ Genetic Algorithms(GA) are adaptive heuristic search algorithms based on the evo
 Differential Evolution (DE) optimizes a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality. DE is suited for multidimensional real-valued functions but does not use the gradient of the problem being optimized. DE does not require the optimization problem to be differentiable as required by classic optimization methods. DE optimizes a problem by maintaining a population of candidate solutions and creating new candidate solutions by combining existing ones saving candidate solution that has the best score.
 
 ##III. Introduction
-Differential Evolution is used to create the base population for Genetic Algorithm(GA). This is run against the tuned crossover factors of [0.1,0.8 and 0.9] and mutation numbers [0.05, 0.1, 0.2] on DTLZ1 and DTLZ5 model  with 10 decisions and 2 objectives to find the optimum solutions. The DE would choose optimal solutions by removing the bad decisions using binary dominations.
+Differential Evolution is used to tune the population for Genetic Algorithm(GA). This is run against the tuned crossover factors of [0.1,0.8 and 0.9] and mutation numbers [0.05, 0.1, 0.2] on DTLZ1 and DTLZ5 model  with 10 decisions and 2 objectives to find the optimum solutions. The DE would choose optimal solutions by removing the bad decisions using binary dominations.
 
 ##IV. Implementation
 Below are the steps for implementation:-  
-1. 
+1. The setting for DE Algorithm was as below :-  
+	epsilon amount=0.1  
+    extrapolate =0.75  
+	crossover probability = 0.3  
+	no of trials = 10  
+2. Initially the DE algorithm is used to find the candidates for GA which in turn is worked upon by the GA algorithm.  
+3  The algorithm is run for 50,100,500 generations on DTLZ5 and DTLZ7 models with 10 decisions and 2 objectives.
+4. The mutation rate and crossover rate are chosen as (0.2,0.8), (0.01,0.3) and (0.1,0.5)
+
+The running time of the algorithm was extremely slow. I have used a technique where I have generated the population in steps of 10 and then finally reached the total population count. This helped me reduce the time of running the algorithm.
+
+##V. Results
+
+##VI. Threats to Validity
+1. The tuned algorithm has been run on DTLZ5 and DTLZ7 with only 10 decisions and 2 objectives. It remains to be seen how the algorithm behaves with DTLZ1 and DTLZ3 models and with higher number of decisions.  
+2. To make the algorithm run faster, I have used energy as a tuning parameter in DE, I would have to see how does the algorithm behaves with binary domination.  
+3. Hypervolume is not a very credible parameter in multi-objective functions. I might need to look at other parameters like co-variance etc.  
+
+##VI. Future Work
+1. The run time of the algorithm is really slow, Future work would include using better techniques to improve the runtime.  
+2. Using DE, the number of candidates generated is very slow after 10 or so candidates, so I have used technique to generate population in step. I would need to see if this effects results.  
+3. The work would be much more credible if I have results for all the models used in code 9.
+4. I would like to check if any other algorithm can tune GA better than GE.
+5. I would like to check if using continuous dominance will help the runtime.
+
 
 
 
