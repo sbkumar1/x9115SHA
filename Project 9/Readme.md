@@ -29,12 +29,16 @@ The average run time of all the models was found to be around 20 iterations.
 Hypervolume was chosen as a parameter, there was instances where the hypervolume_runner.py did result in hypervolume greater than 1, those parameters were normalized.  
 All the Pareto Frontiers geenarted during test are stored in folder Pareto Frontier.  
 ###For DTLZ1
+For DTLZ1, the genetic algorithm works well. The Results are for 100 candidates with 0.01 mutation rate and 0.8 crossover rate.
 ![root directory] (./images/Result1.PNG)
 ###For DTLZ3  
+For DTLZ3, the genetic algorithm works well. The Results are for 100 candidates with 0.01 mutation rate and 0.8 crossover rate.
 ![root directory] (./images/Result2.PNG)
 ###For DTLZ5
+For DTLZ5, the genetic algorithm works well. The Results are for 100 candidates with 0.01 mutation rate and 0.8 crossover rate.
 ![root directory] (./images/Result3.PNG)
 ###For DTLZ7
+For DTLZ1, the genetic algorithm does not good results. The Results are for 100 candidates with 0.01 mutation rate and 0.8 crossover rate.
 ![root directory] (./images/Result4.PNG)
 
 
